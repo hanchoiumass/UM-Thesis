@@ -1,0 +1,12 @@
+---
+title: "Index"
+author: "Hanna Choi"
+date: "5/12/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+[Thesis Manuscript Link](Manuscript.html)
