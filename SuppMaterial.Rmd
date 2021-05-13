@@ -1,0 +1,36 @@
+---
+title: "Supplementary Material"
+author: "Hanna Choi"
+date: "5/1/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r echo=FALSE, out.width="49%", fig.show="hold", fig.cap="**Supp Figure 1. Normalized Metabolomic Data.** MetaboAnalyst 5.0 was used to normalize and standardize the metabolomic data in 14 soil samples per horizon."}
+knitr::include_graphics(c("Figures/normalized_plots_data.png", "Figures/normalized_metabolite_data2.png"))
+```
+![**Supp. Figure 2. Ammonium, orthophosphate, and nitrate levels.** Ammonium, orthophosphate, nitrate absorbances were determined using a colorimetric spectrophotometer with 96 well plates. Absorbances were calculated and converted to concentrations of mg per g soil. Statistically significant differences between the control and heated samples are indicated by a bracket and asterisk (Miranda et al., 2001; Rhine et al., 1998; Ringuet et al., 2011).
+](Figures/figure.a.op.n.jpg)
+
+![**Supp. Figure 3. SOM Cluster of Metabolites.** Self-Organizing Mapping was clustered using MetaboAnalyist 5.0 and indicate 3 clusters where PC1 and PC2 represent 37.6% of the variation.](Figures/PCA_SOM.png)
+
+![**Supp. Map 1. Mapped Lipids in the Organic Horizon.** Mapped via LIPID MAPS Software, the lipidomic data indicates ~ active pathways. No fatty acid reactions were found in either the (a) organic or (b) mineral horizon.](Figures/ExportedGraph_Active_COvsHO.png)
+
+![**Supp. Map 2. Mapped Lipids in the Mineral Horizon.**](Figures/ExportedGraph_Active_CMvsHM.png)
+
+![**Supp. File 1. Individual Boxplots of all statistically significant metabolites in the organic horizon**](Figures/Supplemental_organic_metabolites_plots.pdf)
+
+[**Supp. File 2. Individual Boxplots of all statistically significant metabolites of the mineral horizon**](Figures/Supplemental_mineral_metabolites_plots.pdf)
+
+[**Supp. File 3. Individual Boxplots of all statistically significant lipids of the organic horizon**](Figures/Supplemental_MineralLipids_Boxplots.pdf)
+
+[**Supp. File 4. Individual Boxplots of all statistically significant lipids of the mineral horizon**](Figures/Supplemental_OrganicLipids_Boxplots.pdf)
+
+[**Supplemental Lipid Figures By Class**](Supplemental_Figures_Lipids.html)
+
+[**Functions Script**](Functions.R)
+
+[*Back to Thesis*](Manuscript.html)
